@@ -1,0 +1,16 @@
+vendor_id,question_id,question,expected_answer,vendor_answer,evidence_link,assessor_notes,compliant (Y/N)
+V001,Q01,Do you encrypt data at rest?,Yes,Yes,docs/encryptionspecs.pdf,"AES-256 used for DB; key mgmt via KMS",Y
+V001,Q02,Do you perform annual penetration tests?,Yes,No,,"No pen test reported; uses third-party vuln scans quarterly",N
+V001,Q03,Do you have SOC 2 or equivalent attestation?,Yes,No,,"No attestation; provided security policy docs",N
+V001,Q04,Is MFA required for admin access?,Yes,Yes,docs/mfa-screenshots.pdf,"MFA enforced for admin console",Y
+V001,Q05,Do you run regular vulnerability scans?,Yes,Yes,scans/2026-09-scan.csv,"Quarterly scans; remediation SLAs not documented",Y
+V001,Q06,Do you have an incident response plan?,Yes,Yes,docs/irp.pdf,"IR plan exists; RTOs not explicit",Y
+V002,Q01,Do you encrypt data at rest?,Yes,Yes,docs/enc.pdf,"Only some DBs; backups unclear",N
+V002,Q02,Do you perform annual penetration tests?,Yes,Yes,attestations/pen-test-2025.pdf,"Pen test in 2025; remediation incomplete",Y
+V002,Q03,Do you have SOC 2 or equivalent attestation?,Yes,Yes,attestations/soc2-type2-2024.pdf,"SOC 2 Type II provided",Y
+V003,Q01,Do you encrypt data at rest?,Yes,Yes,docs/enc-tele.pdf,"Encryption with customer-managed keys",Y
+V003,Q02,Do you perform annual penetration tests?,Yes,Yes,attestations/pen-test-2026.pdf,"Pen test with remediation plan",Y
+V003,Q03,Do you have SOC 2 or equivalent attestation?,Yes,No,,"No SOC; HIPAA attestation claimed but not provided",N
+V003,Q04,Is MFA required for admin access?,Yes,Yes,docs/mfa-tele.pdf,"MFA + conditional access",Y
+V003,Q05,Do you run regular vulnerability scans?,Yes,Yes,scans/tele-2026-08.csv,"Monthly scans with prioritized ticketing",Y
+V003,Q06,Do you have an incident response plan?,Yes,Yes,docs/tele-irp.pdf,"IR plan; tested tabletop 2026-04",Y

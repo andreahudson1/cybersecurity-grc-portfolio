@@ -1,0 +1,6 @@
+risk_id,vendor_id,description,likelihood(1-5),impact(1-5),score,owner,mitigation,due_date,status,residual_risk
+R001,V001,No annual penetration test; potential unknown exploitable flaws,4,5,20,Vendor Security Lead,Require pen-test within 90 days and remediate critical findings,2026-12-01,Open,Medium
+R002,V001,Incomplete IR RTOs could cause delayed containment,3,4,12,Vendor Ops Lead,Define RTOs and tabletop test within 60 days,2026-11-15,Open,Low
+R003,V002,Partial encryption and unclear backup encryption,3,3,9,MedSupply IT,Encrypt backups and document key management,2026-10-30,Open,Low
+R004,V002,Orphaned accounts and role drift,3,4,12,Procurement Lead,Run cleanup and implement periodic recertification,2026-11-10,Open,Low
+R005,V003,Physical access required for some on-site equipment increases risk,2,5,10,TeleHealthCo Facilities,Restrict access, background checks, and logging,2026-12-15,Open,Low

@@ -1,0 +1,11 @@
+vendor_id,control_id,control_description,required_by_framework,vendor_control_status,notes,gap
+V001,NIST-PR.DS-1,Protect data at rest,NIST CSF,Implemented,"AES-256, KMS in use",No
+V001,HIPAA-164.312(a)(2)(iii),Encryption and decryption,HIPAA,Implemented,"Encryption in transit & rest",No
+V001,NIST-IR-1,Incident response plan,NIST SP 800-53,Partially Implemented,"Plan exists; RTOs unclear",Yes
+V001,NIST-RA-5,Vulnerability scanning,NIST CSF,Implemented,"Quarterly scans",No
+V001,NIST-CA-2,Pen test attestation,NIST SP 800-53,Not Implemented,"No pentest; only scanning",Yes
+V002,NIST-PR.AC-1,Access management,NIST CSF,Partially Implemented,"Role-based access; some orphaned accounts",Yes
+V002,HIPAA-164.308(a)(1),Security management process,HIPAA,Implemented,"Risk assessment 2024",No
+V003,NIST-PR.DS-2,Key management,NIST CSF,Implemented,"Customer-managed keys",No
+V003,HIPAA-164.308(a)(6),Incident response,HIPAA,Implemented,"Tabletop tested 2026-04",No
+V003,NIST-CA-2,Pen test attestation,NIST SP 800-53,Implemented,"Pentest 2026 with remediation plan",No

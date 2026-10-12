@@ -1,0 +1,30 @@
+Interview practice script (3–5 minutes)
+
+Use this verbatim when practicing. Time each section as noted.
+
+Intro (0:00–0:20)
+“Hello, I’m Andrea Hudson. I’ll present a vendor risk assessment for Example Health Tech — a patient portal. Bottom line: I recommend conditional approval pending a penetration test and clarified incident-response RTOs. I’ll cover scope, evidence, control mapping, scoring, remediation, and KPIs.”
+
+Scope & Impact (0:20–0:45)
+“Scope: Example Health Tech handles PHI, so we classified the vendor as High criticality. That classification shortens remediation SLAs and increases assurance requirements like pen tests and attestations.”
+
+Intake & Classification (0:45–1:05)
+“The intake captured service, business owner, data types, and contract dates. That classification is important because it drives the assurance expectations.”
+
+Evidence & Questionnaire Highlights (1:05–1:35)
+“From the questionnaire: encryption at rest and MFA are implemented and evidenced, and they run scans. Key gaps: no annual penetration test found and no SOC 2 attestation provided — those are our top gaps for a PHI vendor.”
+
+Control Mapping (1:35–1:55)
+“We map vendor controls to NIST/HIPAA. For example the missing pentest maps to NIST CA-2; IR RTOs map to incident-response controls. Mapping makes requirements concrete for legal and engineering.”
+
+Risk Scoring & Prioritization (1:55–2:25)
+“We use likelihood (1–5) × impact (1–5) scoring. The missing pen-test scored 4×5 = 20, which we treat as High/Critical (15+). That drove the remediation SLA and contract conditions.”
+
+Remediation Plan & Actions (2:25–2:50)
+“Actions: require a pen-test within 90 days and remediation evidence; define IR RTOs and run a tabletop within 60 days; document backup encryption. Each action has an owner, due date, and a ticket in our tracker.”
+
+KPIs & Monitoring (2:50–3:10)
+“KPI examples: open high risks, % critical remediated within SLA, average time to remediate. We’ll integrate tickets into Jira and update the Dashboard monthly.”
+
+Close (3:10–3:25)
+“Decision: conditional approval for limited integration; full approval upon evidence of pen-test and remediation. I’m happy to walk deeper into any artifact — questionnaire, control mapping, or the register. Thank you.”
