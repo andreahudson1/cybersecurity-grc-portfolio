@@ -1,0 +1,8 @@
+user_id,username,display_name,email,role,entitlement,last_login,manager,reviewer,review_decision,review_notes,remediation_ticket
+U001,j.smith,John Smith,j.smith@example.org,Finance,access_finance_admin,2026-09-25,manager1,manager1,Remove,"No longer in finance role",JIRA-1234
+U002,m.lee,Maria Lee,m.lee@example.org,HR,access_hr_admin,2026-08-12,manager2,manager2,Retain,"Business need confirmed; access required",JIRA-NA
+U003,t.chen,Tina Chen,t.chen@example.org,IT,access_windows_admin,2026-06-19,manager3,manager3,Remove,"Former contractor; no longer active",JIRA-1235
+U004,k.nelson,Ken Nelson,k.nelson@example.org,Operations,access_erp_reporting,2026-09-30,manager4,manager4,Retain,"Role still valid",JIRA-NA
+U005,s.green,Sarah Green,s.green@example.org,Finance,access_payables,2026-01-14,manager5,manager5,Remove,"Dormant account > 180 days, no business need",JIRA-1236
+U006,a.jones,Alex Jones,a.jones@example.org,Legal,access_contracts,2026-09-28,manager6,manager6,Retain,"Legal hold requiring access",JIRA-NA
+U007,r.morgan,Rebecca Morgan,r.morgan@example.org,Security,access_security_admin,2026-09-17,manager7,manager7,Retain,"Privileged access justified",JIRA-NA

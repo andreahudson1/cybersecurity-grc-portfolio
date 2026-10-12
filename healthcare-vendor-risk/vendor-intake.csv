@@ -1,0 +1,4 @@
+vendor_id,vendor_name,service_description,business_owner,contact_email,criticality,data_types_processed,contract_start,contract_end,is_physical_access_required
+V001,Example Health Tech,Patient portal and patient messaging,Dr. Jane Carter,security@examplehealthtech.com,High,PHI|PII,2026-01-01,2027-01-01,No
+V002,MedSupply Inc.,Medical supply inventory & ordering platform,Procurement Lead,sec@medsupply.example,Medium,PII,2025-06-01,2027-06-01,No
+V003,TeleHealthCo,Telemedicine video consult platform,Clinical Ops Manager,security@telehealthco.example,High,PHI|PII,2026-03-15,2027-03-14,Yes
